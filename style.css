@@ -19,8 +19,8 @@ body {
 	height: 10vh;
 	max-height: 80px;
 	padding: 20px;
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 15vw;
+	padding-right: 15vw;
 	background-color: rgb(73, 79, 82);
 	align-items: center;
 }
@@ -36,7 +36,6 @@ body {
 }
 
 .header h1 {
-	padding-left: 50px;
 	margin: 0;
 	font-size: 40px;
 }
@@ -47,12 +46,13 @@ body {
 
 .navbar {
 	background-color: #131516;
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 15vw;
+	padding-right: 15vw;
 	overflow: hidden;
 }
 .navbar ul {
 	display: inline;
+	padding: 0;
 	list-style-type: none;
 }
 .navbar ul li {
@@ -72,9 +72,10 @@ body {
 }
 
 .mainspace {
-	height: 600px;
+	height: 685px;
 	padding: 40px;
-	padding-left: 200px;
+	padding-left: 15vw;
+	padding-right: 15vw;
 	background-color: rgb(27, 73, 88);
 }
 
