@@ -1,6 +1,11 @@
 # website
 
-HTML/CSS for the moment\
-I used to have a pretty good implementation of PHP and mySQL, but it got lost to the winds of time\
-Just a handmade portfolio of my ability to make a LAMP stack server backend as easily as making a lasagna, and a project space for frontend design.\
-I suck at frontend, HTML/CSS is so outdated, but I have baseless reservations about using frameworks like laravel. But I met some cool fellas from meetup.com that seem to like it so I'll give it a go soon
+Ok, PHP now, just so I can change the header without screwing around too much.\
+Gonna put in SQL soon, for blogpost-style entries, and a login system again.\
+Also, bloody IOS makes the pre-code divs font-size wack out no matter what I do\
+so ignore that for now
+
+- [ ] mySQL
+- [ ] blogpost page
+- [ ] login system
+

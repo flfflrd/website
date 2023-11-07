@@ -6,26 +6,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<div class="header">
-			<h1>tristans website</h1>
-			<div id="filler"></div>
-			<img src="monoTFLogo.png">
-		</div>
-			<div class="navbar">
-				<ul>
-					<li><a href="index.html">home</a></li>
-					<li><a href="resume.pdf">resume</a></li>
-				</ul>
-				<ul id="nav2">
-					<li><a href="https://github.com/flfflrd/">github</a></li>
-					<li><a href="https://instagram.com/fulford.tristan">instagram</a></li>
-				</ul>
-			</div>
+		<?php include("header.php")?>
 		<div class="scrollable">
 			<div class="mainspace">
-				<h2>
+				its not obvious because
+				<h1>
 					i am not a frontend dev
-				</h2>
+				</h1>
+				but the navbar is horizontally-scrollable on small screens
+				<p>
 				might see about a framework or cloud solution for this idk<br>
 				<a href="https://linktr.ee/tristanfulford">linktr.ee/tristanfulford</a>
 				<p>
@@ -40,12 +29,21 @@
 				a shiny new cert
 				<p>
 				doing a bit of bloggy stuff so i might setup sql again
+				<p>
+				how do i make the footer stick to the bottom
+				<p>
+				<div style="width:100px;overflow-x:scroll;">
+					<div style="width:1000px;">helloooooo</div>
+				</div>
+				<p>
+				bloody pre-code sections have a different text size on my phone but theres
+				no css to specify that, fk appl fr
 			</div>
-		</div>
-		<div class="footer">
-			gruvbox theme coming soon<br>
-			0421 670 103, fulford.tristan@gmail.com<br>
-			pls dont hack me
+			<div class="footer">
+				gruvbox theme coming soon<br>
+				0421 670 103, fulford.tristan@gmail.com<br>
+				pls dont hack me
+			</div>
 		</div>
 	</body>
 </html>
